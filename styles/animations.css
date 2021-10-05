@@ -1,9 +1,11 @@
 .offscreenDare {
     margin-right: -410.2px;
+    pointer-events: none;
 }
 
 .offscreenTruth {
     margin-left: -410.2px;
+    pointer-events: none;
 }
 
 .goUnder {
