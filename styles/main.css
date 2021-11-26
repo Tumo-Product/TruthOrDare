@@ -19,7 +19,6 @@
 }
 
 body {
-    background: #F3F3F3;
     width: 900px;
     height: 550px;
     overflow: hidden;
@@ -33,6 +32,7 @@ body {
     align-items: center;
     position: absolute;
     overflow: hidden;
+    background-color: #f3f3f3;
 }
 
 * {
