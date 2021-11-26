@@ -19,9 +19,12 @@
 }
 
 body {
-    width: 900px;
-    height: 550px;
+    background-color: #f3f3f3;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -44,24 +47,24 @@ body {
 #replay {
     transition: 0.5s;
 	background: #F3F3F3;
-	width: 37px;
-	height: 37px;
+	width: 6.72727273vh;
+	height: 6.72727273vh;
 	box-shadow: 2px -1px 2px 0 #FEFEFE, -1px 2px 2px 0 rgba(0,0,0,0.16);
 	border-radius: 100%;
     cursor: pointer;
 
 	position: absolute;
     top: 0;
-    margin-top: 450px;
-	left: 431px;
+    margin-top: 81.81vh;
+	left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 3.63636364vh;
+    height: 3.63636364vh;
 }
 
 #replay img {
@@ -72,8 +75,8 @@ body {
 
 #replay .inside {
     border-radius: 100%;   
-    width: 32px;
-    height: 32px;
+    width: 5.81818182vh;
+    height: 5.81818182vh;
 }
 
 #replay:hover img {
@@ -91,17 +94,17 @@ body {
 .wideBtn {
     transition: 0.5s;
     box-shadow: 5px 5px 5px 0 rgba(222,222,230,0.5), -3px -3px 5px 0 #FEFEFE;
-    width: 300px;
-    height: 100px;
-    border-radius: 25px;
+    width: 54.5454545vh;
+    height: 18.1818182vh;
+    border-radius: 4.54545455vh;
     position: absolute;
-    top: 225px;
+    top: 40.9090909vh;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: FedraBold;
-    font-size: 40px;
+    font-size: 7.27272727vh;
 }
 
 .wideBtn p {
@@ -121,12 +124,12 @@ body {
 }
 
 #truth {
-    left: 100px;
+    left: 20vh;
     color: #DF7575;
 }
 
 #dare {
-    right: 100px;
+    right: 20vh;
     color: #99B2DD;
 }
 
@@ -140,16 +143,16 @@ body {
     pointer-events: none;
     box-shadow: -4px 4px 6px 0 rgb(254 254 254 / 48%), 4px -4px 6px 0 rgb(254 254 254 / 20%);
     border-radius: 23px;
-    width: 286px;
-    height: 86px;
+    width: 52vh;
+    height: 15.6363636vh;
 }
 
 #spinner {
     transition: 0.4s;
     box-shadow: inset -3px -3px 4px 0 #FEFEFE, inset 3px 3px 4px 0 rgba(222,222,230,0.5);
-    width: 700px;
-    height: 200px;
-    border-radius: 30px;
+    width: 127.272727vh;
+    height: 36.3636364vh;
+    border-radius: 5.45454545vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -157,9 +160,9 @@ body {
 }
 
 #spinner p {
-    width: 660px;
+    width: 120vh;
     font-family: Fedra;
-    font-size: 20px;
+    font-size: 3.63636364vh;
     color: rgba(89,107,128,0.4);
     text-align: center;
 }

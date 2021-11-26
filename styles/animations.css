@@ -1,13 +1,13 @@
 .offscreenDare {
-    margin-right: -410.2px;
+    margin-right: -74.5454545vh;
     pointer-events: none;
 }
 
 .offscreenTruth {
-    margin-left: -410.2px;
+    margin-left: -74.5454545vh;
     pointer-events: none;
 }
 
 .goUnder {
-    margin-top: 550px !important;
+    margin-top: 100vh !important;
 }
